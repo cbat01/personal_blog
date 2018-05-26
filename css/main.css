@@ -13,13 +13,13 @@ nav ul
 {
 	list-style: none;
 	margin: 0;
+	float: right;
 }
 
-nav ul li
+nav ul li,nav .logo
 {
 	display: inline-block;
 	line-height: 50px;
-	float: right;
 	margin-right: 20px;
 }
 
@@ -29,11 +29,13 @@ nav ul li a
 	text-decoration: none;
 	display: inline-block;
 	height: inherit;
+	color: #fff;
 }
 
-nav ul li.logo
+nav ul li .logo
 {
 	float: left;
+	padding: 10px;
 }
 
 #banner .inner
@@ -56,4 +58,32 @@ button
 	background-color: #333;
 	color: #eee;
 	padding: 10px;
+}
+
+#banner button
+{
+	padding: 14px 60px;
+}
+
+#banner .inner .more
+{
+	margin-top: 280px;
+}
+
+.sub-heading
+{
+	line-height: 30px;
+	margin: 30px;
+}
+
+.logo
+{
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.logo a
+{
+	color: #fff;
 }
